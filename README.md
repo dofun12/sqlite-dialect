@@ -15,7 +15,7 @@
           <artifactId>sqlite-dialect</artifactId>
           <version>1.0-SNAPSHOT</version>
     </dependency>
-</dependencies
+</dependencies>
 ```
 
 ## Dialect package:
