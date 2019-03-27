@@ -1,3 +1,5 @@
+Fork from https://github.com/diyfr/sqlite-dialect
+
 # sqlite-dialect
 ## Usage maven:
 Download the sqlite-dialect-0.1.jar, then run the command:
