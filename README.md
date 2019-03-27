@@ -1,27 +1,26 @@
 # sqlite-dialect
 ## Usage maven:
+Download the sqlite-dialect-0.1.jar, then run the command:
+
+``` 
+mvn install:install-file -Dfile=/pathtofile/sqlite-dialect-0.1.jar -DgroupId=org.lemanoman -DartifactId=sqlite-dialect -Dversion=0.1
 ```
-....
-<repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-</repositories>
+
+Then add the dependency
 ...
 <dependencies>
     <dependency>
-          <groupId>com.github.lemanoman</groupId>
+          <groupId>org.lemanoman</groupId>
           <artifactId>sqlite-dialect</artifactId>
-          <version>1.0-SNAPSHOT</version>
+          <version>0.1</version>
     </dependency>
 </dependencies>
 ```
 
 ## Dialect package:
 
-```org.lemanoman.sqllitedialect.SQLiteDialect```
+```org.lemanoman.sqlite.dialect.SQLiteDialect```
 
 ## Spring application.properties example
 
-```spring.jpa.properties.hibernate.dialect=org.lemanoman.sqllitedialect.SQLiteDialect```
+```spring.jpa.properties.hibernate.dialect=org.lemanoman.sqlite.dialect.SQLiteDialect```
