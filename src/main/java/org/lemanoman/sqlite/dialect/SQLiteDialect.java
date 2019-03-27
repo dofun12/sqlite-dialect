@@ -7,7 +7,7 @@
  *    May you share freely, never taking more than you give.
  *
  */
-package org.lemanoman.sqllitedialect;
+package org.lemanoman.sqlite.dialect;
 
 import org.hibernate.JDBCException;
 import org.hibernate.ScrollMode;

@@ -1,4 +1,4 @@
-package org.lemanoman.sqllitedialect;
+package org.lemanoman.sqlite.dialect;
 
 import org.hibernate.boot.MetadataBuilder;
 import org.hibernate.boot.registry.StandardServiceRegistry;

@@ -1,4 +1,4 @@
-package org.lemanoman.sqllitedialect;
+package org.lemanoman.sqlite.dialect;
 
 import org.hibernate.dialect.identity.IdentityColumnSupportImpl;
 
